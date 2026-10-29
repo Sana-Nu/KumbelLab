@@ -1,0 +1,19 @@
+void main() {  
+   int price = 8635 ;
+  print('цена без скидки: $price тг');
+   int discountPercent = 20 ;
+  print('введите процент скидки %');
+  int discountAmount = (price * discountPercent) ~/ 100;
+  int finalPrice = price - discountAmount ;
+  print('цена со скидкой: $finalPrice тг');
+  
+  int num1 = 45 ;
+   print('введите первое число $num1');
+  int num2 = 82 ;
+   print('введите второе число $num2');
+  int sum = num1 + num2;
+   print('сумма чисел - $sum');
+  int difference = num1 - num2;
+   print('разность чисел - $difference');
+  
+  }

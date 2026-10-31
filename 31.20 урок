@@ -1,0 +1,36 @@
+import'dart:io' ;
+
+void main() 
+{
+print('HELLO WORLD!!!!!!!!!!') ;
+
+print('какую задачу вы хотите выполнить?') ;
+print('1. сложение 2.вычитание 3.умножение 4.деление') ;
+int operation = int.parse(stdin.readLineSync()!);
+print(operation);
+
+print('введите первое число');
+int num1 = int.parse(stdin.readLineSync()!);
+print('введите второе число');
+int num2 = int.parse(stdin.readLineSync()!);
+
+if (operation == 1){
+ print('сумма чисел = ${num1 + num2}');
+}
+
+if (operation == 2){
+
+ print('разность чисел = ${num1 - num2}');
+}
+
+if (operation == 3){
+
+ print('умножение = ${num1 * num2}');
+}
+
+if (operation == 4){
+
+ print('деление = ${num1 / num2}');
+}
+
+}
